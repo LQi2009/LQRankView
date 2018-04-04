@@ -15,6 +15,8 @@
 		D29296B5206DC75400B5F358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29296B4206DC75400B5F358 /* main.m */; };
 		D29296BF206DC75400B5F358 /* LACustomProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D29296BE206DC75400B5F358 /* LACustomProgressTests.m */; };
 		D29296CA206DC75400B5F358 /* LACustomProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D29296C9206DC75400B5F358 /* LACustomProgressUITests.m */; };
+		D29F8444206E2F690050B45E /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = D29F8443206E2F690050B45E /* test.png */; };
+		D2E4650C206DC8A300A1C318 /* LQRankView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4650B206DC8A300A1C318 /* LQRankView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D29296C5206DC75400B5F358 /* LACustomProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LACustomProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29296C9206DC75400B5F358 /* LACustomProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LACustomProgressUITests.m; sourceTree = "<group>"; };
 		D29296CB206DC75400B5F358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29F8443206E2F690050B45E /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		D2E4650A206DC8A300A1C318 /* LQRankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQRankView.h; sourceTree = "<group>"; };
+		D2E4650B206DC8A300A1C318 /* LQRankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQRankView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		D29296A4206DC75400B5F358 /* LACustomProgress */ = {
 			isa = PBXGroup;
 			children = (
+				D29F8443206E2F690050B45E /* test.png */,
 				D29296A5206DC75400B5F358 /* AppDelegate.h */,
 				D29296A6206DC75400B5F358 /* AppDelegate.m */,
 				D29296A8206DC75400B5F358 /* ViewController.h */,
 				D29296A9206DC75400B5F358 /* ViewController.m */,
+				D2E4650A206DC8A300A1C318 /* LQRankView.h */,
+				D2E4650B206DC8A300A1C318 /* LQRankView.m */,
 				D29296AB206DC75400B5F358 /* Main.storyboard */,
 				D29296AE206DC75400B5F358 /* Assets.xcassets */,
 				D29296B0206DC75400B5F358 /* LaunchScreen.storyboard */,
@@ -241,6 +249,7 @@
 				D29296B2206DC75400B5F358 /* LaunchScreen.storyboard in Resources */,
 				D29296AF206DC75400B5F358 /* Assets.xcassets in Resources */,
 				D29296AD206DC75400B5F358 /* Main.storyboard in Resources */,
+				D29F8444206E2F690050B45E /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 				D29296AA206DC75400B5F358 /* ViewController.m in Sources */,
 				D29296B5206DC75400B5F358 /* main.m in Sources */,
 				D29296A7206DC75400B5F358 /* AppDelegate.m in Sources */,
+				D2E4650C206DC8A300A1C318 /* LQRankView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
